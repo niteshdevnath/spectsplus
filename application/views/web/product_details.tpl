@@ -1,6 +1,7 @@
 <?php
 		echo	$layout['header'];
 ?>
+<link src="<?php echo base_url('assets/css/jqzoom.css'); ?>"  type="text/css" role="stylesheet" />
 <script type="text/javascript" src="<?php echo base_url('assets/js/jqzoom.js'); ?>"></script>
 <style type="text/css">
 p{
