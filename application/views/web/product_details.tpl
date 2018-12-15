@@ -1,6 +1,9 @@
 <?php
 		echo	$layout['header'];
 ?>
+<link rel="stylesheet" media="screen" href="https://sularome.github.io/Zoomple/styles/styles.css" />
+<link rel="stylesheet" media="screen"type="test/css" href="https://sularome.github.io/Zoomple/styles/zoomple.css"  />
+<script src="https://sularome.github.io/Zoomple/zoomple.js"></script> 
 <style type="text/css">
 p{
 	font-size: 16px;
@@ -67,7 +70,7 @@ p{
                          				{
                          	?>
                          					<div class="item <?php if($i == 0){echo 'active'; } ?>">
-					        					<img src="<?php echo base_url().$single['url']; ?>" alt="Los Angeles" style="width:100%;" class="bzoom_thumb_image"  <?php if($i == 0){echo 'title="first img"'; } ?>> 
+					        					<img src="<?php echo base_url().$single['url']; ?>" alt="Los Angeles" style="width:100%;" class="zoompleFixed"  <?php if($i == 0){echo 'title="first img"'; } ?>> 
 					        					<div class="carousel-caption">
 										          <h3>Available Colors:<?php echo $single['color'];?> </h3>
 										          <p>Views:</p>
@@ -649,25 +652,13 @@ p{
     </div><!-- //. bottom content -->
 </div>
 <script type="text/javascript">
-$("#bzoom").zoom({
-	zoom_area_width: 300,
-    autoplay_interval :3000,
-    small_thumbs : 4,
-    autoplay : false
-});
-</script>
-<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-76127-15', 'sularome.github.io');
+  ga('send', 'pageview');
 
 </script>
 <!-- cart sidebar area end -->
