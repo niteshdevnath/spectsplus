@@ -13,7 +13,8 @@ p{
 	margin-bottom: -1px !important;   
 }
 .product-details-content-area {
-	pa
+	padding-bottom:0px;
+}
 </style>
 <!-- breadcrumb area start -->
 <section class="breadcrumb-area breadcrumb-bg">
