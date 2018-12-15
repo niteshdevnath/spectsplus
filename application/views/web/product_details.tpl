@@ -356,7 +356,7 @@ p{
                 <div class="recently-added-carousel" id="recently-added-carousel"><!-- recently added carousel -->
                     <div class="single-new-collection-item">
                         <div class="thumb">
-                            <img src="<?= ('assets/img/new-collections/09.jpg')?>" alt="product image">
+                            <img src="http://img.fixthephoto.com/UserFiles/product-photography-post-production-after.jpg" alt="product image">
                             <div class="hover">
                                 <a href="product-details.html#" class="addtocart">Add to cart</a>
                             </div>
@@ -369,7 +369,7 @@ p{
                     </div>
                     <div class="single-new-collection-item">
                         <div class="thumb">
-                            <img src="<?= ('assets/img/new-collections/10.jpg')?>" alt="product image">
+                            <img src="http://img.fixthephoto.com/UserFiles/product-photography-post-production-after.jpg" alt="product image">
                             <div class="hover">
                                 <a href="product-details.html#" class="addtocart">Add to cart</a>
                             </div>
@@ -382,7 +382,7 @@ p{
                     </div>
                     <div class="single-new-collection-item">
                         <div class="thumb">
-                            <img src="<?= ('assets/img/new-collections/11.jpg')?>" alt="product image">
+                            <img src="http://img.fixthephoto.com/UserFiles/product-photography-post-production-after.jpg" alt="product image">
                             <div class="hover">
                                 <a href="product-details.html#" class="addtocart">Add to cart</a>
                             </div>
@@ -395,7 +395,7 @@ p{
                     </div>
                     <div class="single-new-collection-item">
                         <div class="thumb">
-                            <img src="<?= ('assets/img/new-collections/12.jpg')?>" alt="product image">
+                            <img src="http://img.fixthephoto.com/UserFiles/product-photography-post-production-after.jpg" alt="product image">
                             <div class="hover">
                                 <a href="product-details.html#" class="addtocart">Add to cart</a>
                             </div>
@@ -408,7 +408,7 @@ p{
                     </div>
                     <div class="single-new-collection-item">
                         <div class="thumb">
-                            <img src="<?= ('assets/img/new-collections/03.jpg')?>" alt="product image">
+                            <img src="http://img.fixthephoto.com/UserFiles/product-photography-post-production-after.jpg" alt="product image">
                             <div class="hover">
                                 <a href="product-details.html#" class="addtocart">Add to cart</a>
                             </div>
