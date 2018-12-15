@@ -68,7 +68,7 @@ p{
                          	?>
                          					<div class="item <?php if($i == 0){echo 'active'; } ?>">
 					        					<img src="<?php echo base_url().$single['url']; ?>" alt="Los Angeles" style="width:100%;" class="bzoom_thumb_image"  <?php if($i == 0){echo 'title="first img"'; } ?>>
-                                              <!--  <img class="bzoom_big_image" src="<?php //echo base_url().$single['url']; ?>"/> -->
+                                               <img class="bzoom_big_image" src="<?php echo base_url().$single['url']; ?>"/> 
 					        					<div class="carousel-caption">
 										          <h3>Available Colors:<?php echo $single['color'];?> </h3>
 										          <p>Views:</p>
