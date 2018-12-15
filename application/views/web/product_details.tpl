@@ -59,7 +59,7 @@ p{
 		      						}
 		      				?> 
 					    </ol>
-					    <div class="carousel-inner">
+					    <div class="carousel-inner" id="bzoom">
 					    	<?php if(!empty($productdetail))
                          			{
                          				$i = 0;
@@ -648,6 +648,28 @@ p{
         </div> <!-- //. cart product -->
     </div><!-- //. bottom content -->
 </div>
+<script type="text/javascript">
+$("#bzoom").zoom({
+	zoom_area_width: 300,
+    autoplay_interval :3000,
+    small_thumbs : 4,
+    autoplay : false
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <!-- cart sidebar area end -->
 <!-- footer area one start -->
 <?php
