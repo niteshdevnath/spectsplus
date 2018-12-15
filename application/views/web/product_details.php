@@ -2,6 +2,8 @@
 		echo	$layout['header'];
 ?>
 <link src="<?php echo base_url('assets/css/jqzoom.css'); ?>"  type="text/css" role="stylesheet" />
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script></div>
 <script type="text/javascript" src="<?php echo base_url('assets/js/jqzoom.js'); ?>"></script>
 <style type="text/css">
 p{
