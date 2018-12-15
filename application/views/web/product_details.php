@@ -60,6 +60,7 @@ p{
 		      						}
 		      				?> 
 					    </ol>
+                        <div class="bzoom_wrap">
 					    <div class="carousel-inner" id="bzoom">
 					    	<?php if(!empty($productdetail))
                          			{
@@ -81,6 +82,7 @@ p{
                         			}
                         	?>   
 					    </div>
+                        </div>
 					    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 					      <span class="glyphicon glyphicon-chevron-left"></span>
 					      <span class="sr-only">Previous</span>
