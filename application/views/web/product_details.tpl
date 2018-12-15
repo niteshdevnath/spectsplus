@@ -1,6 +1,7 @@
 <?php
 		echo	$layout['header'];
 ?>
+<script type="text/javascript" src="<?php echo base_url('assets/js/jqzoom.js'); ?>"></script>
 <style type="text/css">
 p{
 	font-size: 16px;
@@ -66,7 +67,8 @@ p{
                          				{
                          	?>
                          					<div class="item <?php if($i == 0){echo 'active'; } ?>">
-					        					<img src="<?php echo base_url().$single['url']; ?>" alt="Los Angeles" style="width:100%;">
+					        					<img src="<?php echo base_url().$single['url']; ?>" alt="Los Angeles" style="width:100%;" class="bzoom_thumb_image"  <?php if($i == 0){echo 'title="first img"'; } ?>>
+                                                <img class="bzoom_big_image" src="<?php echo base_url().$single['url']; ?>"/>
 					        					<div class="carousel-caption">
 										          <h3>Available Colors:<?php echo $single['color'];?> </h3>
 										          <p>Views:</p>
