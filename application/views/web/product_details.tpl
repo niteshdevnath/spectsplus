@@ -10,7 +10,7 @@ p{
 }
 .product-details-tab-nav .nav.nav-tabs .nav-item {
 	margin: 0px;
-	margin-bottom: -1px !important;
+	margin-bottom: -1px !important;   
 }
 .product-details-content-area {
 	pa
