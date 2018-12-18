@@ -52,13 +52,13 @@
                                     <div class="right-content">
                                         <ul>
                                             <li>
-                                                <a style="background-color: cornflowerblue;" href="#">Sign in with Facebook</a>    
+                                                <a style="background-color: cornflowerblue; color:white;" href="#">Sign in with Facebook</a>    
                                             </li>  
                                             <li>
-                                                <a href="#" style="background-color:#1DA1F2;">Sign in with Twitter</a>
+                                                <a href="#" style="background-color:#1DA1F2; color:white;">Sign in with Twitter</a>
                                             </li>
                                             <li>
-                                                <a style="background-color: salmon;" href="#">Sign in with Google+</a>
+                                                <a style="background-color: salmon; color:white;" href="#">Sign in with Google+</a>
                                             </li>
                                         </ul>
                                     </div>  
