@@ -55,10 +55,10 @@
                                                 <a style="background-color: cornflowerblue;" href="#">Sign in with Facebook</a>    
                                             </li>  
                                             <li>
-                                                <a href="">Sign in with Facebook</li>
+                                                <a href="#" style="background-color:#1DA1F2;">Sign in with Twitter</a>
                                             </li>
                                             <li>
-                                                <a style="background-color: salmon;" href="">Sign in with Google+</a>
+                                                <a style="background-color: salmon;" href="#">Sign in with Google+</a>
                                             </li>
                                         </ul>
                                     </div>  
