@@ -86,6 +86,11 @@
           div.bhoechie-tab-container {
            margin-left: 0px; 
           }
+          
+          .form-element .has-icon {
+            position: relative;
+            top: -25px !important;
+           }
           </style>
           <!-- Try CSS end -->
 
@@ -141,7 +146,7 @@
                           <!-- flight section -->
                           <div class="bhoechie-tab-content active">
                               <center>
-                                <h1 class="glyphicon glyphicon-plane" style="font-size:14em;color:#55518a"></h1>
+                                <h1 style="font-size:14em;color:#55518a"><i class="fa fa-user" aria-hidden="true"></i></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
                                 <h3 style="margin-top: 0;color:#55518a">My Account</h3>
                               </center>
@@ -149,7 +154,7 @@
                           <!-- train section -->
                           <div class="bhoechie-tab-content">
                               <center>
-                                <h1 class="glyphicon glyphicon-road" style="font-size:12em;color:#55518a"></h1>
+                                <h1 style="font-size:12em;color:#55518a"><i class="fa fa-address-card" aria-hidden="true"></i></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
                                 <h3 style="margin-top: 0;color:#55518a">Account Information</h3>
                               </center>
