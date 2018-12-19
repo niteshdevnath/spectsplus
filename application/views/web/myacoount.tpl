@@ -109,7 +109,7 @@
                             <h4 class="glyphicon glyphicon-user"></h4><br/>My Account
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-bookmark"></h4><br/>Account Information
+                            <h4><i class="fa fa-address-book" aria-hidden="true"></i></h4><br/>Account Information
                           </a>
                           <a href="#" class="list-group-item text-center">
                             <h4 class="glyphicon glyphicon-book"></h4><br/>Address Book
