@@ -72,7 +72,7 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="tab">
-                        <button class="tablinks active" onclick ="myAccount(event, 'account')" id="defaultOpen">ACCOUNT DASHBOARD</button>
+                        <button class="tablinks active" onclick="myAccount(event, 'account')" id="defaultOpen">ACCOUNT DASHBOARD</button>
                         <button class="tablinks" onclick="myAccount(event, 'acc_info')">ACCOUNT INFORMATION</button>
                         <button class="tablinks" onclick="myAccount(event, 'addressbook')">ADDRESS BOOK</button>
                         <button class="tablinks" onclick="myAccount(event, 'prescription')">MY SAVED PRESCRIPTIONS</button>
