@@ -1,11 +1,12 @@
 <?php
 		echo	$layout['header'];
 ?>
-<script type="text/javascript" src="<?php echo base_url();?>/assets/facebook.js" ></script>  
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/facebook.js" ></script>  
 	<script src="<?php echo base_url();?>/assets/platform.js?onload=onLoadCallback" async defer></script>
 	<script type="text/javascript" src="<?php echo base_url();?>/assets/client.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>/assets/google.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>/assets/api_client.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/> 
 <!-- breadcrumb area start -->
 <section class="breadcrumb-area breadcrumb-bg extra">
     <div class="container">  
