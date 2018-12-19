@@ -109,19 +109,31 @@
                             <h4 class="glyphicon glyphicon-user"></h4><br/>My Account
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-road"></h4><br/>Train
+                            <h4 class="glyphicon glyphicon-road"></h4><br/>Account Information
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-home"></h4><br/>Hotel
+                            <h4 class="glyphicon glyphicon-home"></h4><br/>Address Book
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-cutlery"></h4><br/>Restaurant
+                            <h4 class="glyphicon glyphicon-cutlery"></h4><br/>My Prescription
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Credit Card
+                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>My Product Reviews
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Credit Card
+                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Newsletter Subscriptions
+                          </a>
+                          <a href="#" class="list-group-item text-center">
+                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>My Invitations
+                          </a>
+                          <a href="#" class="list-group-item text-center">
+                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Check Voucher Balance
+                          </a>
+                          <a href="#" class="list-group-item text-center">
+                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Store Credit
+                          </a>
+                          <a href="#" class="list-group-item text-center">
+                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>My Ditto
                           </a>
                         </div>
                       </div>
@@ -131,7 +143,7 @@
                               <center>
                                 <h1 class="glyphicon glyphicon-plane" style="font-size:14em;color:#55518a"></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Flight Reservation</h3>
+                                <h3 style="margin-top: 0;color:#55518a">My Account</h3>
                               </center>
                           </div>
                           <!-- train section -->
@@ -139,7 +151,7 @@
                               <center>
                                 <h1 class="glyphicon glyphicon-road" style="font-size:12em;color:#55518a"></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Train Reservation</h3>
+                                <h3 style="margin-top: 0;color:#55518a">Account Information</h3>
                               </center>
                           </div>
               
@@ -148,28 +160,56 @@
                               <center>
                                 <h1 class="glyphicon glyphicon-home" style="font-size:12em;color:#55518a"></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Hotel Directory</h3>
+                                <h3 style="margin-top: 0;color:#55518a">Address Book</h3>
                               </center>
                           </div>
                           <div class="bhoechie-tab-content">
                               <center>
                                 <h1 class="glyphicon glyphicon-cutlery" style="font-size:12em;color:#55518a"></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Restaurant Diirectory</h3>
+                                <h3 style="margin-top: 0;color:#55518a">My Prescription</h3>
                               </center>
                           </div>
                           <div class="bhoechie-tab-content">
                               <center>
                                 <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
+                                <h3 style="margin-top: 0;color:#55518a">My Product Reviews</h3>
                               </center>
                           </div>
                           <div class="bhoechie-tab-content">
                               <center>
                                 <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
                                 <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
-                                <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
+                                <h3 style="margin-top: 0;color:#55518a">Newsletter Subscriptions</h3>
+                              </center>
+                          </div>
+                          <div class="bhoechie-tab-content">
+                              <center>
+                                <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                <h3 style="margin-top: 0;color:#55518a">My Invitations</h3>
+                              </center>
+                          </div>
+                          <div class="bhoechie-tab-content">
+                              <center>
+                                <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                <h3 style="margin-top: 0;color:#55518a">Check Voucher Balance</h3>
+                              </center>
+                          </div>
+                          <div class="bhoechie-tab-content">
+                              <center>
+                                <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                <h3 style="margin-top: 0;color:#55518a">Store Credit</h3>
+                              </center>
+                          </div>
+                          <div class="bhoechie-tab-content">
+                              <center>
+                                <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                                <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                                <h3 style="margin-top: 0;color:#55518a">My Ditto</h3>
                               </center>
                           </div>
                       </div>
