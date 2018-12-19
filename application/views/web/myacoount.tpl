@@ -77,25 +77,18 @@
                 
                 <div class="card-body">
 
-                      <div class="col-xs-3"> <!-- required for floating -->
-    <!-- Nav tabs -->
-                        <ul class="nav nav-tabs tabs-left">
-                          <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-                          <li><a href="#profile" data-toggle="tab">Profile</a></li>
-                          <li><a href="#messages" data-toggle="tab">Messages</a></li>
-                          <li><a href="#settings" data-toggle="tab">Settings</a></li>
-                        </ul>
-                    </div>
-                     
-                    <div class="col-xs-9">
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="home">Home Tab.</div>
-                          <div class="tab-pane" id="profile">Profile Tab.</div>
-                          <div class="tab-pane" id="messages">Messages Tab.</div>
-                          <div class="tab-pane" id="settings">Settings Tab.</div>
-                        </div>
-                    </div> 
+                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                  </div>
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" >...</div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                  </div>
             
                 </div>
               </div>
