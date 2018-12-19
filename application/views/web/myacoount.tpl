@@ -106,34 +106,34 @@
                       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
                         <div class="list-group">
                           <a href="#" class="list-group-item active text-center">
-                            <h4 class="glyphicon glyphicon-user"></h4><br/>My Account
+                            <h4><i class="fa fa-user" aria-hidden="true"></i></h4>My Account
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4><i class="fa fa-address-book" aria-hidden="true"></i></h4><br/>Account Information
+                            <h4><i class="fa fa-address-card" aria-hidden="true"></i></h4>Account Information
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-book"></h4><br/>Address Book
+                            <h4><i class="fa fa-address-book" aria-hidden="true"></i></h4>Address Book
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-cutlery"></h4><br/>My Prescription
+                            <h4><i class="fa fa-archive" aria-hidden="true"></i></h4>My Prescription
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>My Product Reviews
+                            <h4><i class="fa fa-comments" aria-hidden="true"></i></h4>My Product Reviews
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Newsletter Subscriptions
+                            <h4><i class="fa fa-newspaper-o" aria-hidden="true"></i></h4>Newsletter Subscriptions
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>My Invitations
+                            <h4><i class="fa fa-bell" aria-hidden="true"></i></h4>My Invitations
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Check Voucher Balance
+                            <h4><i class="fa fa-star" aria-hidden="true"></i></h4>Check Voucher Balance
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Store Credit
+                            <h4><i class="fa fa-credit-card" aria-hidden="true"></i></h4>Store Credit
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-credit-card"></h4><br/>My Ditto
+                            <h4><i class="fa fa-clone" aria-hidden="true"></i></h4>My Ditto
                           </a>
                         </div>
                       </div>
