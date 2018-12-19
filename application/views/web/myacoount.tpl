@@ -58,6 +58,9 @@
             border-left: none;
             height: 300px;
           }
+          .seller-dashboard-content-area .dashboard-content-wrapper{
+            background-color:none;
+          }
           </style>
           <!-- Try CSS end -->
 
@@ -69,7 +72,7 @@
           <div class="col-md-12">
               <div class="card dashboard-content-wrapper card-default gray-bg">
                 <div class="card-header">
-                    <h3>My Account Page</h3><br>
+                    <h3>My Account Page</h3>
                 </div>
                 <div class="card-body">
                   <div class="row" >
