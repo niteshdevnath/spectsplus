@@ -80,17 +80,7 @@
                     <div class="col-md-12">
                       <div class="row">
                         <div class="col-md-4">
-                          <ul class="nav nav-tabs tabs-left">
-                            <li class="active"><a href="#account" data-toggle="tab">ACCOUNT DASHBOARD</a></li>
-                            <li><a href="#acc_info" data-toggle="tab">ACCOUNT INFORMATION</a></li>
-                            <li><a href="#" data-toggle="tab">ADDRESS BOOK</a></li>
-                            <li><a href="#" data-toggle="tab">MY SAVED PRESCRIPTIONS</a></li>
-                            <li><a href="#" data-toggle="tab">MY PRODUCT REVIEWS</a></li>
-                            <li><a href="#" data-toggle="tab">NEWSLETTER SUBSCRIPTION</a></li>
-                            <li><a href="#" data-toggle="tab">MY INVITATIONS</a></li>
-                            <li><a href="#" data-toggle="tab">CHECK VOUCHER BALANCE</a></li>
-                            <li><a href="#" data-toggle="tab">STORE CREDIT TAB</a></li>
-                          </ul>
+                          
                         </div>
                         <div class="col-md-8">
                           <div class="tab-content" >
@@ -106,7 +96,7 @@
         </div>
     </div>
 </div>
-<!-- seller dashboard content area end -->
+<!-- seller dashboard content area end --> 
 <!-- Demo Start-->
 
 <!-- Demo End -->
