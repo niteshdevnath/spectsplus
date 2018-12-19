@@ -19,12 +19,12 @@
     <div class="container">
         <div class="row">
           <div class="col-md-12">
-              <div class="card dashboard-content-wrapper card-default gray-bg">
+              <div class="card">
                 <div class="card-header">
                     <h3>My Account Page</h3>
                 </div>
                 
-                <div class="card-body">
+                <div class="card-body ">
 
                   <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
