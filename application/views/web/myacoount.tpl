@@ -76,69 +76,69 @@
                 </div>
                 
                 <div class="card-body">
-                  <div class="row" >
+                  <div class="row">
                     <div class="col-md-12">
-                      <div class="tab">
-                        <button class="tablinks active" onclick="myAccount(event, 'account')" id="defaultOpen">ACCOUNT DASHBOARD</button>
-                        <button class="tablinks" onclick="myAccount(event, 'acc_info')">ACCOUNT INFORMATION</button>
-                        <button class="tablinks" onclick="myAccount(event, 'addressbook')">ADDRESS BOOK</button>
-                        <button class="tablinks" onclick="myAccount(event, 'prescription')">MY SAVED PRESCRIPTIONS</button>
-                        <button class="tablinks" onclick="myAccount(event, 'product_review')">MY PRODUCT REVIEWS</button>
-                        <button class="tablinks" onclick="myAccount(event, 'newsletters')">NEWSLETTER SUBSCRIPTION</button>
-                        <button class="tablinks" onclick="myAccount(event, 'my_invitations')">MY INVITATIONS</button>
-                        <button class="tablinks" onclick="myAccount(event, 'voucher_balance')">CHECK VOUCHER BALANCE</button>
-                        <button class="tablinks" onclick="myAccount(event, 'store_credit')">STORE CREDIT TAB</button>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <ul class="nav nav-tabs tabs-left">
+                            <li class="active"><a href="#account" data-toggle="tab">ACCOUNT DASHBOARD</a></li>
+                            <li class="active"><a href="#acc_info" data-toggle="tab">ACCOUNT INFORMATION</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">ADDRESS BOOK</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">MY SAVED PRESCRIPTIONS</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">MY PRODUCT REVIEWS</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">NEWSLETTER SUBSCRIPTION</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">MY INVITATIONS</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">CHECK VOUCHER BALANCE</a></li>
+                            <li class="active"><a href="#" data-toggle="tab">STORE CREDIT TAB</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="tab-content" >
+                            <div id="account" class="tab-pane active">
+                                <h3>My Dashboard</h3>
+                                <p>You (Your Name) are Logged In<span style="  margin: 180px;">
+                                <button style="border-radius: 12px; background-color: #3bb3a9;" type="submit" class="submit-btn">Logout</button>
+                                </span></p>       
+                            </div>
+
+                            <div id="acc_info" class="tabcontent" style="display: none;">
+                              <h3>Edit Account Information</h3>
+                              <p>Account Information</p> 
+                              <form method="post">
+                                <div class="form-element">
+                                  <label>First Name</label>
+                                  <input type="text" id="" name="" class="input-field" placeholder="First Name">
+                                </div>                                      
+                                <div class="form-element">
+                                  <label>Last Name</label> 
+                                  <input type="text" name="" id="" class="input-field" placeholder="Last Name">
+                                </div>
+                                <div class="form-element">
+                                  <label>Email</label>
+                                  <input type="email" name="" id="" class="input-field" placeholder="Email Address">
+                                </div>
+
+                                <div class="form-group">
+                                  <label style="color: black"><b>Gender</b></label>
+                                  <select>
+                                    <option value="select">Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>                              
+                                  </select> 
+                                </div>
+                                  Change Password: <input type="checkbox" id="myCheck" onclick="myFunction()">
+                                  <p id="text" style="display:none">
+                                  Current Password:<input type="text">
+                                  New Password: <input type="text">
+                                  Confirm Password: <input type="text"></p>
+                                  <div class="btn-wrapper">                                
+                                    <button style="font-family: inherit; border-radius: 12px; background-color: #f18132;" type="submit" class="submit-btn">SAVE &amp; CONTINUE</button>
+                                  </div> 
+                              </form>                   
+                            </div>
+                          </div>
+                        </div>
                       </div>
-
-                      <div id="account" class="tabcontent" style="display: block;">
-                          <h3>My Dashboard</h3>
-                          <p>You (Your Name) are Logged In<span style="  margin: 180px;">
-                          <button style="border-radius: 12px; background-color: #3bb3a9;" type="submit" class="submit-btn">Logout</button>
-                          </span></p>       
-                      </div>
-
-                      <div id="acc_info" class="tabcontent" style="display: none;">
-                        <h3>Edit Account Information</h3>
-                        <p>Account Information</p> 
-                        <form method="post">
-                          <div class="form-element">
-                            <label>First Name</label>
-                            <input type="text" id="" name="" class="input-field" placeholder="First Name">
-                          </div>                                      
-                          <div class="form-element">
-                            <label>Last Name</label> 
-                            <input type="text" name="" id="" class="input-field" placeholder="Last Name">
-                          </div>
-                          <div class="form-element">
-                            <label>Email</label>
-                            <input type="email" name="" id="" class="input-field" placeholder="Email Address">
-                          </div>
-
-                          <div class="form-group">
-                            <label style="color: black"><b>Gender</b></label>
-                            <select>
-                              <option value="select">Select</option>
-                              <option value="male">Male</option>
-                              <option value="female">Female</option>                              
-                            </select> 
-                          </div>
-
-                    <!-- <b style="color: black"><label> Change Password: </label></b><input type="checkbox" id="myCheck"  onclick="myFunction()"> -->
-                    Change Password: <input type="checkbox" id="myCheck" onclick="myFunction()">
-
-                    <!-- <p id="text" style="display:none">Checkbox is CHECKED!</p> -->
-                    <p id="text" style="display:none">
-                    Current Password:<input type="text">
-                    New Password: <input type="text">
-                    Confirm Password: <input type="text"></p>
-
-                            <div class="btn-wrapper">                                
-                     <button style="font-family: inherit; border-radius: 12px; background-color: #f18132;" type="submit" class="submit-btn">SAVE &amp; CONTINUE</button>                                  
-                            </div>                                                                               
-                      </form>                   
-                    </div>
-
-
                     </div>
                   </div>
                 </div>
