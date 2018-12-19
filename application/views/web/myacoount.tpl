@@ -109,10 +109,10 @@
                             <h4 class="glyphicon glyphicon-user"></h4><br/>My Account
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-road"></h4><br/>Account Information
+                            <h4 class="glyphicon glyphicon-bookmark"></h4><br/>Account Information
                           </a>
                           <a href="#" class="list-group-item text-center">
-                            <h4 class="glyphicon glyphicon-home"></h4><br/>Address Book
+                            <h4 class="glyphicon glyphicon-book"></h4><br/>Address Book
                           </a>
                           <a href="#" class="list-group-item text-center">
                             <h4 class="glyphicon glyphicon-cutlery"></h4><br/>My Prescription
