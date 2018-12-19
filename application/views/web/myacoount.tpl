@@ -90,6 +90,46 @@
                           </span></p>       
                       </div>
 
+                      <div id="acc_info" class="tabcontent" style="display: none;">
+                        <h3>Edit Account Information</h3>
+                        <p>Account Information</p> 
+                        <form method="post">
+                          <div class="form-element">
+                            <label>First Name</label>
+                            <input type="text" id="" name="" class="input-field" placeholder="First Name">
+                          </div>                                      
+                          <div class="form-element">
+                            <label>Last Name</label> 
+                            <input type="text" name="" id="" class="input-field" placeholder="Last Name">
+                          </div>
+                          <div class="form-element">
+                            <label>Email</label>
+                            <input type="email" name="" id="" class="input-field" placeholder="Email Address">
+                          </div>
+
+                          <div class="form-group">
+                            <label style="color: black"><b>Gender</b></label>
+                            <select>
+                              <option value="select">Select</option>
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>                              
+                            </select> 
+                          </div>
+
+                    <!-- <b style="color: black"><label> Change Password: </label></b><input type="checkbox" id="myCheck"  onclick="myFunction()"> -->
+                    Change Password: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <!-- <p id="text" style="display:none">Checkbox is CHECKED!</p> -->
+                    <p id="text" style="display:none">
+                    Current Password:<input type="text">
+                    New Password: <input type="text">
+                    Confirm Password: <input type="text"></p>
+
+                            <div class="btn-wrapper">                                
+                     <button style="font-family: inherit; border-radius: 12px; background-color: #f18132;" type="submit" class="submit-btn">SAVE &amp; CONTINUE</button>                                  
+                            </div>                                                                               
+                      </form>                   
+                    </div>
 
 
                     </div>
