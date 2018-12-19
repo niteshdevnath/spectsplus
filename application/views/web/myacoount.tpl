@@ -106,7 +106,7 @@
                       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
                         <div class="list-group">
                           <a href="#" class="list-group-item active text-center">
-                            <h4 class="glyphicon glyphicon-plane"></h4><br/>Flight
+                            <h4 class="glyphicon glyphicon-user"></h4><br/>My Account
                           </a>
                           <a href="#" class="list-group-item text-center">
                             <h4 class="glyphicon glyphicon-road"></h4><br/>Train
