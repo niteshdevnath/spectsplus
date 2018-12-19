@@ -82,6 +82,16 @@
                         <button class="tablinks" onclick="myAccount(event, 'voucher_balance')">CHECK VOUCHER BALANCE</button>
                         <button class="tablinks" onclick="myAccount(event, 'store_credit')">STORE CREDIT TAB</button>
                       </div>
+
+                      <div id="account" class="tabcontent" style="display: block;">
+                          <h3>My Dashboard</h3>
+                          <p>You (Your Name) are Logged In<span style="  margin: 180px;">
+                          <button style="border-radius: 12px; background-color: #3bb3a9;" type="submit" class="submit-btn">Logout</button>
+                          </span></p>       
+                      </div>
+
+
+
                     </div>
                   </div>
               </div>
