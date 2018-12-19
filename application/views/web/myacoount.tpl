@@ -78,6 +78,7 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-12">
+                      <div class="row">
                         <div class="col-md-4">
                           <ul class="nav nav-tabs tabs-left">
                             <li class="active"><a href="#account" data-toggle="tab">ACCOUNT DASHBOARD</a></li>
@@ -92,13 +93,13 @@
                           </ul>
                         </div>
                         <div class="col-md-8">
-                          <div class="tab-content" >
+                          <div class=" tab-content" >
                             <div id="account" class="tab-pane active">
                                 <h3>My Dashboard</h3>
-                                <p>You (Your Name) are Logged In<span style="  margin: 180px; ">
+                                <p>You (Your Name) are Logged In<span style="  margin: 180px;">
                                 <button style="border-radius: 12px; background-color: #3bb3a9;" type="submit" class="submit-btn">Logout</button>
                                 </span></p>       
-                            </div >
+                            </div>
 
                             <div id="acc_info" class="tabcontent" style="display: none;">
                               <h3>Edit Account Information</h3>
@@ -137,6 +138,7 @@
                             </div>
                           </div>
                         </div>
+                      </div>
                     </div>
                   </div>
                 </div>
