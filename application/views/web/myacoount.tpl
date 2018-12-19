@@ -90,7 +90,7 @@
           .form-element .has-icon {
             position: relative;
             top: -25px !important;
-           }
+          }
           </style>
           <!-- Try CSS end -->
 
