@@ -93,49 +93,8 @@
                           </ul>
                         </div>
                         <div class="col-md-8">
-                          <div class=" tab-content" >
-                            <div id="account" class="tab-pane active">
-                                <h3>My Dashboard</h3>
-                                <p>You (Your Name) are Logged In<span style="  margin: 180px;">
-                                <button style="border-radius: 12px; background-color: #3bb3a9;" type="submit" class="submit-btn">Logout</button>
-                                </span></p>       
-                            </div>
-
-                            <div id="acc_info" class="tabcontent" style="display: none;">
-                              <h3>Edit Account Information</h3>
-                              <p>Account Information</p> 
-                              <form method="post">
-                                <div class="form-element">
-                                  <label>First Name</label>
-                                  <input type="text" id="" name="" class="input-field" placeholder="First Name">
-                                </div>                                      
-                                <div class="form-element">
-                                  <label>Last Name</label> 
-                                  <input type="text" name="" id="" class="input-field" placeholder="Last Name">
-                                </div>
-                                <div class="form-element">
-                                  <label>Email</label>
-                                  <input type="email" name="" id="" class="input-field" placeholder="Email Address">
-                                </div>
-
-                                <div class="form-group">
-                                  <label style="color: black"><b>Gender</b></label>
-                                  <select>
-                                    <option value="select">Select</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>                              
-                                  </select> 
-                                </div>
-                                  Change Password: <input type="checkbox" id="myCheck" onclick="myFunction()">
-                                  <p id="text" style="display:none">
-                                  Current Password:<input type="text">
-                                  New Password: <input type="text">
-                                  Confirm Password: <input type="text"></p>
-                                  <div class="btn-wrapper">                                
-                                    <button style="font-family: inherit; border-radius: 12px; background-color: #f18132;" type="submit" class="submit-btn">SAVE &amp; CONTINUE</button>
-                                  </div> 
-                              </form>                   
-                            </div>
+                          <div class="tab-content" >
+                            
                           </div>
                         </div>
                       </div>
