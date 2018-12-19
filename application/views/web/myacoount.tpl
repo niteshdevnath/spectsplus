@@ -68,7 +68,7 @@
         <div class="row">
           <div class="col-md-12">
               <div class="card dashboard-content-wrapper card-default gray-bg">
-                  <h3>My Account Page</h3><br>
+                    <h3>My Account Page</h3><br>
                   <div class="row">
                     <div class="col-md-12">
                       <div class="tab">
