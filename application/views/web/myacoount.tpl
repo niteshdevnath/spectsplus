@@ -76,9 +76,7 @@
                 </div>
                 
                 <div class="card-body">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="row">
+
                       <div class="col-xs-3"> <!-- required for floating -->
     <!-- Nav tabs -->
                         <ul class="nav nav-tabs tabs-left">
@@ -97,10 +95,8 @@
                           <div class="tab-pane" id="messages">Messages Tab.</div>
                           <div class="tab-pane" id="settings">Settings Tab.</div>
                         </div>
-                    </div>
-                      </div>
-                    </div>
-                  </div>
+                    </div> 
+            
                 </div>
               </div>
           </div>
