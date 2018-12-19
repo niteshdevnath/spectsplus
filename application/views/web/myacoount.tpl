@@ -83,6 +83,9 @@
           .seller-dashboard-content-area .dashboard-content-wrapper{
             background-color:none;
           }
+          div.bhoechie-tab-container {
+           margin-left: 0px; 
+          }
           </style>
           <!-- Try CSS end -->
 
