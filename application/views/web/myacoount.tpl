@@ -66,7 +66,26 @@
 <div class="seller-dashboard-content-area">
     <div class="container">
         <div class="row">
-          
+          <div class="col-md-12">
+              <div class="card dashboard-content-wrapper card-default gray-bg">
+                  <h3>My Account Page</h3><br>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="tab">
+                        <button class="tablinks active" onclick="myAccount(event, 'account')" id="defaultOpen">ACCOUNT DASHBOARD</button>
+                        <button class="tablinks" onclick="myAccount(event, 'acc_info')">ACCOUNT INFORMATION</button>
+                        <button class="tablinks" onclick="myAccount(event, 'addressbook')">ADDRESS BOOK</button>
+                        <button class="tablinks" onclick="myAccount(event, 'prescription')">MY SAVED PRESCRIPTIONS</button>
+                        <button class="tablinks" onclick="myAccount(event, 'product_review')">MY PRODUCT REVIEWS</button>
+                        <button class="tablinks" onclick="myAccount(event, 'newsletters')">NEWSLETTER SUBSCRIPTION</button>
+                        <button class="tablinks" onclick="myAccount(event, 'my_invitations')">MY INVITATIONS</button>
+                        <button class="tablinks" onclick="myAccount(event, 'voucher_balance')">CHECK VOUCHER BALANCE</button>
+                        <button class="tablinks" onclick="myAccount(event, 'store_credit')">STORE CREDIT TAB</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
         </div>
     </div>
 </div>
