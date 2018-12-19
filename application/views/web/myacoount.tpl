@@ -82,14 +82,14 @@
                         <div class="col-md-4">
                           <ul class="nav nav-tabs tabs-left">
                             <li class="active"><a href="#account" data-toggle="tab">ACCOUNT DASHBOARD</a></li>
-                            <li class="active"><a href="#acc_info" data-toggle="tab">ACCOUNT INFORMATION</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">ADDRESS BOOK</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">MY SAVED PRESCRIPTIONS</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">MY PRODUCT REVIEWS</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">NEWSLETTER SUBSCRIPTION</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">MY INVITATIONS</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">CHECK VOUCHER BALANCE</a></li>
-                            <li class="active"><a href="#" data-toggle="tab">STORE CREDIT TAB</a></li>
+                            <li><a href="#acc_info" data-toggle="tab">ACCOUNT INFORMATION</a></li>
+                            <li><a href="#" data-toggle="tab">ADDRESS BOOK</a></li>
+                            <li><a href="#" data-toggle="tab">MY SAVED PRESCRIPTIONS</a></li>
+                            <li><a href="#" data-toggle="tab">MY PRODUCT REVIEWS</a></li>
+                            <li><a href="#" data-toggle="tab">NEWSLETTER SUBSCRIPTION</a></li>
+                            <li><a href="#" data-toggle="tab">MY INVITATIONS</a></li>
+                            <li><a href="#" data-toggle="tab">CHECK VOUCHER BALANCE</a></li>
+                            <li><a href="#" data-toggle="tab">STORE CREDIT TAB</a></li>
                           </ul>
                         </div>
                         <div class="col-md-8">
@@ -99,7 +99,7 @@
                                 <p>You (Your Name) are Logged In<span style="  margin: 180px;">
                                 <button style="border-radius: 12px; background-color: #3bb3a9;" type="submit" class="submit-btn">Logout</button>
                                 </span></p>       
-                            </div>
+                            </div >
 
                             <div id="acc_info" class="tabcontent" style="display: none;">
                               <h3>Edit Account Information</h3>
