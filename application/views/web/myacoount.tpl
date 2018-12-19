@@ -68,8 +68,11 @@
         <div class="row">
           <div class="col-md-12">
               <div class="card dashboard-content-wrapper card-default gray-bg">
+                <div class="card-header">
                     <h3>My Account Page</h3><br>
-                  <div class="row">
+                </div>
+                <div class="card-body">
+                  <div class="row" >
                     <div class="col-md-12">
                       <div class="tab">
                         <button class="tablinks active" onclick="myAccount(event, 'account')" id="defaultOpen">ACCOUNT DASHBOARD</button>
@@ -134,6 +137,7 @@
 
                     </div>
                   </div>
+                </div>
               </div>
           </div>
         </div>
